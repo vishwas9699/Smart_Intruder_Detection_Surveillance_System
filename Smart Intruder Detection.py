@@ -62,7 +62,7 @@ def send_message(body, info_dict):
 cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
 
 # This is a test video
-cap = cv2.VideoCapture('sample2.mp4')
+cap = cv2.VideoCapture('Sample1.mp4')
 
 # Read the video steram from the camera
 #cap = cv2.VideoCapture('http://192.168.43.1:8080/video')
