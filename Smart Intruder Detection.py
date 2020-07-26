@@ -59,7 +59,7 @@ def send_message(body, info_dict):
 #time.sleep(15)
 
 # Set Window normal so we can resize it
-cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
+cv2.namedWindow('frame', cv2.WINDOW_KEEPRATIO)
 
 # This is a test video
 cap = cv2.VideoCapture('Sample1.mp4')
