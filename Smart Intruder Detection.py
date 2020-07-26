@@ -62,7 +62,7 @@ def send_message(body, info_dict):
 cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
 
 # This is a test video
-cap = cv2.VideoCapture('sample2.mp4')
+cap = cv2.VideoCapture('Sample1.mp4')
 
 # Read the video steram from the camera
 #cap = cv2.VideoCapture('http://192.168.43.1:8080/video')
@@ -152,10 +152,10 @@ while(True):
     current_time = datetime.datetime.now().strftime("%A, %I:%M:%S %p %d %B %Y")
 
     # Display the FPS
-    cv2.putText(annotated_image, 'FPS: {:.2f}'.format(fps), (510, 450), cv2.FONT_HERSHEY_COMPLEX, 0.6, (255, 40, 155),2)
+    cv2.putText(annotated_image, 'FPS: {:.2f}'.format(fps), (1500, 20), cv2.FONT_HERSHEY_COMPLEX, 0.6, (255, 40, 155),2)
     
     # Display Time
-    cv2.putText(annotated_image, current_time, (310, 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 255),1)    
+    cv2.putText(annotated_image, current_time, (310, 20), cv2.FONT_HERSHEY_COMPLEX, 1.0, (0, 0, 255),2)    
     
     # Display the Room Status
     cv2.putText(annotated_image, 'Room Occupied: {}'.format(str(status)), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.6, 
@@ -167,7 +167,7 @@ while(True):
     else: 
         text = 'Patience: {:.2f}'.format(max(0, patience - (time.time() - initial_time)))
         
-    cv2.putText(annotated_image, text, (10, 450), cv2.FONT_HERSHEY_COMPLEX, 0.6, (255, 40, 155) , 2)   
+    cv2.putText(annotated_image, text, (1000, 20), cv2.FONT_HERSHEY_COMPLEX, 0.6, (255, 40, 155) , 2)   
 
     # If status is true save the frame
     if status:
