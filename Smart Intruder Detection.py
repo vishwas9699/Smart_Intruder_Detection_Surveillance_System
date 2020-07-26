@@ -175,7 +175,9 @@ while(True):
  
     # Show the Frame
     cv2.imshow('frame',frame)
-    
+
+
+
     # Calculate the Average FPS
     frame_counter += 1
     fps = (frame_counter / (time.time() - start_time))
