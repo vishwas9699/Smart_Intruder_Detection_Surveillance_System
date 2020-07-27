@@ -10,3 +10,6 @@ I build a robust Intruder Detection surveillance system on top of that, this wil
 
 ### SMS alert via Twilio API
 <img src="https://github.com/vishwas9699/Smart_Intruder_Detection_Surveillance_System/blob/master/Alert%20Via%20Twilio%20API.jpg">
+
+### Check out my LinkedIn post for Result
+[Click Here](https://www.linkedin.com/posts/vishwas-v-b25272152_opencv-twilio-surveillance-activity-6693239545619714048-VSoF)
