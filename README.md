@@ -1,4 +1,4 @@
-# Smart_Intruder_Detection_Surveillance_System
+# Smart Intruder Detection Surveillance System
 
 I build a robust Intruder Detection surveillance system on top of that, this will record video samples whenever someone enters your room and will also send you alert messages via Twilio API.
 
