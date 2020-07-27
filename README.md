@@ -9,4 +9,4 @@ I build a robust Intruder Detection surveillance system on top of that, this wil
 * Step 4: Finally we’re computing a bounding box over the max contour, drawing the box, and displaying the image.
 
 ### SMS alert via Twilio API
-<img src="https://github.com/vishwas9699/Smart_Intruder_Detection_Surveillance_System/blob/master/SMS%20alert.png">
+<img src="https://github.com/vishwas9699/Smart_Intruder_Detection_Surveillance_System/blob/master/Alert%20Via%20Twilio%20API.jpg">
