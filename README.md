@@ -18,4 +18,4 @@ I build a robust Intruder Detection surveillance system on top of that, this wil
 ------
 
 ### Check out my LinkedIn post for Result
-[Click Here](https://www.linkedin.com/posts/vishwas-v-b25272152_opencv-twilio-surveillance-activity-6693239545619714048-VSoF)
+[Click Here](https://www.linkedin.com/posts/vishwas-v-b25272152_opencv-twilio-surveillance-activity-6693932588526108672-d0N1)
