@@ -11,19 +11,14 @@ def is_person_present(frame, thresh=1100):
     
     global foog
     
-    # Apply background subtraction
     fgmask = foog.apply(frame)
 
-    # Get rid of the shadows
     ret, fgmask = cv2.threshold(fgmask, 250, 255, cv2.THRESH_BINARY)
 
-    # Apply some morphological operations to make sure you have a good mask
     fgmask = cv2.dilate(fgmask,None,iterations = 4)
 
-    # Detect contours in the frame
     contours, hierarchy = cv2.findContours(fgmask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
-     
-    # Check if there was a contour and the area is somewhat higher than some threshold so we know its a person and not noise
+
     if contours and cv2.contourArea(max(contours, key = cv2.contourArea)) > thresh:
             
             # Get the max contour
@@ -56,7 +51,6 @@ def send_message(body, info_dict):
     message = client.messages.create( to = info_dict['your_num'], from_ = info_dict['trial_num'], body= body)
 
 
-#time.sleep(15)
 
 # Set Window normal so we can resize it
 cv2.namedWindow('frame', cv2.WINDOW_KEEPRATIO)
