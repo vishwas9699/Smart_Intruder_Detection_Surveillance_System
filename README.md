@@ -16,6 +16,3 @@ I build a robust Intruder Detection surveillance system on top of that, this wil
 <img src="https://github.com/vishwas9699/Smart_Intruder_Detection_Surveillance_System/blob/master/Alert%20Via%20Twilio%20API.jpg">
 
 ------
-
-### Check out my LinkedIn post for Result
-[Click Here](https://www.linkedin.com/posts/vishwas-v-b25272152_opencv-twilio-surveillance-activity-6693932588526108672-d0N1)
