@@ -187,4 +187,3 @@ while(True):
 # Release Capture and destroy windows
 cap.release()
 cv2.destroyAllWindows()
-out.release()
