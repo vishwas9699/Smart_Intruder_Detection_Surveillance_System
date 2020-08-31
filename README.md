@@ -5,7 +5,7 @@ I build a robust Intruder Detection surveillance system on top of that, this wil
 -----
 
 ## 4 major steps are being performed 
-Step 1: We’re Extracting moving objects with Background Subtraction and getting rid of the shadows
+* Step 1: We’re Extracting moving objects with Background Subtraction and getting rid of the shadows
 * Step 2: Applying morphological operations to improve the background subtraction mask
 * Step 3: Then we’re detecting Contours and making sure you’re not detecting noise by filtering small contours
 * Step 4: Finally we’re computing a bounding box over the max contour, drawing the box, and displaying the image.
