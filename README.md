@@ -13,6 +13,6 @@ I build a robust Intruder Detection surveillance system on top of that, this wil
 ------
 
 ### SMS alert via Twilio API
-<img src="https://github.com/vishwas9699/Smart_Intruder_Detection_Surveillance_System/blob/master/Alert%20Via%20Twilio%20API.jpg">( )
+[<img src="https://github.com/vishwas9699/Smart_Intruder_Detection_Surveillance_System/blob/master/Alert%20Via%20Twilio%20API.jpg">]()
 
 ------
